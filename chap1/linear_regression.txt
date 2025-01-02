@@ -1,0 +1,33 @@
+Linear regression 
+
+What is the use ?
+	--> We want to find a line that is the best fit between all the data points we have. 
+	--> line equation is y=mx+c, y=dependent variable, x=predictor varirable, c=intercept
+
+
+
+We also looked into cross validation and its need for training our model
+	--> we select some data to train our model, but then we also need some unseen data to test 
+	--> The main idea behind croos validation is to create batches of training and test data for testing
+	--> So we test each batches with the model
+
+
+GridSearchCV
+	--> Cross Validation and grid search
+	--> We just explore all our options with the number of features and estimators we use with our data
+	--> It returns us with the best estimator, which then can be used further to test the sampled test data 
+
+What is the difference between an estimator and a feature ?
+	--> Features -> just given data categories that you have (aka column)
+	--> Estimators -> essentially a function, just churns out the resulting data for each input featur
+
+Most of the models/estimators will actually have a fit function
+	--> Fit gets the training X data and the training Y data
+Then it will also have a predict method which will be used to test and predict.
+	--> Predict just takes one input and that is the X axis test data
+
+What is the difference between a parameter and a hyperparameter?
+	--> Parameter will determine and tell the model what to learn from ?
+		-> They are automatically updated upon running the model and from data
+	--> Hyperparameter will tell the model on how to learn   
+		-> They are manually specified by us, we are setting up the terms on which the model will be trained. 
