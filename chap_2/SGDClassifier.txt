@@ -1,9 +1,0 @@
-What is a SGDClassifier ?
-	Linear classifier with a schoastic gradient descent working on it
-		--> Generally, we have a linear classifier, and we then use a min/max function on it.
-			--> In this case we are using Gradient descent
-				--> It can be of 3 types
-					1. Batch
-					2. Schoastic
-					3. Idk, but uses both of the upper one 
-			--> Linear classifier can be SVC and what not....	
